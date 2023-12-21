@@ -1,0 +1,22 @@
+{
+  "name": "edxfooter",
+  "version": "1.0.0",
+  "description": "edx_footer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drcpythonmfe/edxFooterPackage.git"
+  },
+  "keywords": [
+    "edxFooter"
+  ],
+  "author": "Drc Dhrupad patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drcpythonmfe/edxFooterPackage/issues"
+  },
+  "homepage": "https://github.com/drcpythonmfe/edxFooterPackage#readme"
+}
