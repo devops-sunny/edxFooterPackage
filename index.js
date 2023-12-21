@@ -61,6 +61,7 @@ function Footer(config) {
             </div>
           </div>
         </div>
+
         <div className="footer-bottom">
           <div className="copy-right">
             © 2017 BuildaBazaar. All rights reserved.
