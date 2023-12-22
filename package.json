@@ -1,6 +1,6 @@
 {
   "name": "edxfooter",
-  "version": "1.0.2",
+  "version": "1.2.3",
   "description": "edx_footer",
   "private": false,
   "main": "dist/Footer.js",
