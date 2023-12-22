@@ -1,7 +1,8 @@
+import React from "react";
 import Logo from "./images/logo.png";
 import "./css/docs.css";
 
-function Footer(config) {
+const Footer = (config) => {
   return (
     <footer id="footer">
       <div className="container">
@@ -104,6 +105,6 @@ function Footer(config) {
       </div>
     </footer>
   );
-}
+};
 
-module.exports = Footer;
+export default Footer;

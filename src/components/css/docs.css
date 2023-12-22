@@ -1,0 +1,89 @@
+
+
+body {font-family: 'Open Sans', sans-serif; }
+img {max-width:100%; }
+
+
+.page {position:relative; border-top:solid 5px #cc9b24; }
+
+#footer {background:#000000; padding:49px 0 30px 0;}
+#footer .contact-slide {display:block; line-height:21px; position:relative; padding:0 0 0 38px; font-size:16px; color:#ffffff; font-weight:normal; margin-top:22px; }
+#footer .contact-slide label {display:block; font-size:12px; font-weight:normal; margin:0px; }
+#footer .contact-slide .fa {position:absolute; top:17px; left:0px; line-height:26px; width:26px; text-align:center; color:#fff; background:#cc9b24; border-radius:50%; font-size:12px; }
+#footer .store-img {margin-bottom:22px; }
+#footer .contact-slide a {color:#ffffff; text-decoration:none;}
+#footer h5 {display:block; font-size:18px; color:#ffffff; line-height:32px; font-weight:600; margin:0 0 0 0; }
+#footer .footer-link {display:block; padding:19px 0 0 0; margin:0px;  }
+#footer .footer-link li {list-style:none;}
+#footer .footer-link li a {line-height:30px; font-size:14px; color:#fff; text-decoration:none; position:relative; padding-left:15px; display:inline-block; }
+#footer .footer-link li a:after {display: inline-block; font-family:FontAwesome; text-rendering: auto; content:"\f105"; position:absolute; top:0px; left:0px; }
+#footer .footer-link li a:hover {color:#cc9b24; }
+#footer .social-media {padding:15px 0 0px 0; float:right; }
+#footer .social-media ul {padding:0px; margin:0px; }
+#footer .social-media ul li {list-style:none; padding:0 19px 0 0; display:inline-block; }
+#footer .social-media ul li:last-child {padding:0px;}
+#footer .social-media ul li a {display:block; line-height:30px; color:#fff; font-size:18px; }
+
+#footer .social-media ul li a:hover {color:#cc9b24; }
+#footer .footer-bottom {border-top:solid 1px #cc9b24; padding:16px 0 30px 0; margin-top:40px; position:relative; }
+#footer .footer-logo {width:100%; float:left; }
+#footer .footer-logo .logo {display:inline-block; }
+#footer .copy-right {line-height:30px; font-size:14px; color:#fff; margin:0px; display:block; text-align:center; padding-top:15px;float:left;}
+
+
+@media (max-width: 1199px) {
+#footer .social-media ul li a {width:28px; line-height:26px; font-size:13px; }
+#footer .social-media ul li {padding:0 4px 0 0;}
+}
+@media (max-width: 991px) {
+#footer .footer-link  {min-height:170px; }
+.register-block .text {display:block; text-align:center; margin-bottom:20px; }
+.register-block .register-btn {margin:0 auto; float:none; }
+.register-block {padding:50px 0;}
+.courses-view .courses-box .author-name {font-size:14px;}
+.courses-view .courses-box p {font-size:17px;}
+#footer .social-media ul li a {width:23px; line-height:30px; font-size:15px; }
+#footer .social-media ul li {padding:0 7px 0 0;}
+
+}
+
+@media (max-width: 767px) {
+#footer {padding:20px 0 0 0; }
+#footer h5 {padding-top:10px;}
+#footer .footer-link {min-height:inherit; padding-top:5px; }
+#footer .footer-bottom .bottom-link {display:block; text-align:center; }
+#footer .footer-logo {float:none; width:100%;margin-top:30px;}
+#footer .footer-logo img {max-width:181px}
+#footer .copy-right {position:static; margin:0px;float:none;}
+#footer .store-img {margin:30px 0 0 0 ;}
+#footer .social-media {float:none; display:block; text-align:center; }
+}
+
+@media (min-width: 991px) {
+ .inside-full-height{
+  height:100%;
+  margin-top:0;
+  margin-bottom:0;
+}
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+.col-height {
+  display: table-cell;
+  float: none;
+  height: 100%;
+}
+.col-top {
+  vertical-align: top;
+}
+.col-middle {
+  vertical-align: middle;
+  
+}
+.col-bottom {
+  vertical-align: bottom;
+}
+}
