@@ -1,6 +1,8 @@
 import React from "react";
 import Logo from "./images/logo.png";
 import "./css/docs.css";
+import "./css/bootstrap.css";
+import "./css/font-awesome.css";
 const Footer = config => {
   return /*#__PURE__*/React.createElement("footer", {
     id: "footer"
